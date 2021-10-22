@@ -39,6 +39,7 @@
     --page-width: 70em;
     --display-h1-decoration: 1;
     --code-bg-color: #fff;
+    --gradient-second-color: #274472;
 }
 
 @media only screen and (max-width: 850px) {
@@ -215,7 +216,7 @@ figure {
 }
 
 .main-title {
-    color: #1a95e0 !important;
+    color: var(--primary-color) !important;
 }
 
 .cp-title {
@@ -226,7 +227,7 @@ figure {
 
 .cp-blue {
     background-color: blue !important;
-    color: #eee !important;
+    color: var(--background-color) !important;
     font-weight: bolder;
     padding: 3px 8px;
     border-radius: 7.5px;
@@ -234,7 +235,7 @@ figure {
 
 .cp-green {
     background-color: green !important;
-    color: #eee !important;
+    color: var(--background-color) !important;
     font-weight: bolder;
     padding: 3px 8px;
     border-radius: 7.5px;
@@ -242,10 +243,46 @@ figure {
 
 .cp-purple {
     background-color: purple !important;
-    color: #eee !important;
+    color: var(--background-color) !important;
     font-weight: bolder;
     padding: 3px 8px;
     border-radius: 7.5px;
+}
+
+/** About **/
+
+.profile-pic {
+    max-height: 500px;
+    width: auto;
+    -webkit-filter: drop-shadow(5px 5px 0 var(--primary-color))
+                  drop-shadow(-5px -5px 0 var(--primary-color))
+                  drop-shadow(-5px 5px 0 var(--primary-color))
+                  drop-shadow(5px -5px 0 var(--primary-color));
+    filter: drop-shadow(5px 5px 0 var(--primary-color))
+        drop-shadow(-5px -5px 0 var(--primary-color))
+        drop-shadow(-5px 5px 0 var(--primary-color))
+        drop-shadow(5px -5px 0 var(--primary-color));
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-info {
+    height: 100%;
+}
+
+.author-name {
+    font-size: 72px;
+    font-weight: bolder;
+    margin: 15px 0;
+    display:flex;
+    background: -webkit-linear-gradient(0deg, var(--primary-color), var(--gradient-second-color));
+    height: 100px;
+    padding-top: 15px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media only screen and (max-width: 850px) {
