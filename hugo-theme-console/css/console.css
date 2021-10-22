@@ -253,7 +253,10 @@ figure {
 
 .profile-pic {
     max-height: 500px;
+    max-width: 500px;
     width: auto;
+    height: auto;
+    text-align: center;
     -webkit-filter: drop-shadow(5px 5px 0 var(--primary-color))
                   drop-shadow(-5px -5px 0 var(--primary-color))
                   drop-shadow(-5px 5px 0 var(--primary-color))
@@ -267,29 +270,56 @@ figure {
 .about {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .about-info {
-    height: 100%;
+    height: 100% !important;
+    /* position: absolute; */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
 }
 
 .author-name {
     font-size: 72px;
     font-weight: bolder;
-    margin: 15px 0;
+    margin-top: 15px;
     display:flex;
     background: -webkit-linear-gradient(0deg, var(--primary-color), var(--gradient-second-color));
-    height: 100px;
+    height: 80px;
     padding-top: 15px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1050px) {
     .site-name {
         width: 2ch;
         overflow: hidden;
         display: inline-block;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .author-name {
+        font-size: 34px ;
+        height: 60px;
+    }
+
+    .content {
+        font-size: 18px !important;
+    }
+
+    .content__container__list {
+        padding-left: 0px !important;
+    }
+
+    .content__container__list__item {
+        padding: 0px !important;
     }
 
     .terminal-nav {
