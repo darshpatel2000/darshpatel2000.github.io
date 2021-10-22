@@ -45,13 +45,13 @@
 }
 
 [data-theme="dark"] {
-    --primary-color: orange;
-    --gradient-second-color: red;
+    --primary-color: #fe5a1d;
+    --gradient-second-color: #cf71af;
     --font-color: #e1e1ff;
+    --global-font-color: #888;
     --background-color: #161625;
     --heading-color: #818cab;
 }
-
 
 @media only screen and (max-width: 850px) {
     :root {
@@ -86,6 +86,10 @@ body {
     font-size: var(--global-font-size);
     background-color: var(--background-color);
     margin-bottom: 75px;
+}
+
+* {
+    transition: color 0.3s ease,background-color 0.3s ease;
 }
 
 h1,
@@ -237,7 +241,7 @@ figure {
 
 .cp-blue {
     background-color: blue !important;
-    color: var(--background-color) !important;
+    color: #fff !important;
     font-weight: bolder;
     padding: 3px 8px;
     border-radius: 7.5px;
@@ -245,7 +249,7 @@ figure {
 
 .cp-green {
     background-color: green !important;
-    color: var(--background-color) !important;
+    color: #fff !important;
     font-weight: bolder;
     padding: 3px 8px;
     border-radius: 7.5px;
@@ -253,7 +257,7 @@ figure {
 
 .cp-purple {
     background-color: purple !important;
-    color: var(--background-color) !important;
+    color: #fff !important;
     font-weight: bolder;
     padding: 3px 8px;
     border-radius: 7.5px;
@@ -296,7 +300,9 @@ figure {
     height: 80px;
     padding-top: 15px;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .social-buttons {
@@ -471,6 +477,13 @@ input:checked + .slider:before {
 }
 
 @media only screen and (max-width: 1050px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 675px) {
     .site-name {
         width: 2ch;
         overflow: hidden;
