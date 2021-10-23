@@ -40,6 +40,7 @@
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
+    --background-color: #fff5ee;
     --code-bg-color: #fff;
     --gradient-second-color: #274472;
 }
@@ -299,10 +300,9 @@ figure {
     background: -webkit-linear-gradient(0deg, var(--primary-color), var(--gradient-second-color));
     height: 80px;
     padding-top: 15px;
+    color: rgba(255,255,255,0);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
 }
 
 .social-buttons {
@@ -567,4 +567,10 @@ input:checked + .slider:before {
         margin-top: 50px;
         padding-top: 5px;
     }
+}
+
+@supports (-webkit-touch-callout: none) {
+    .author-name {
+        color: var(--primary-color) !important;
+    }     
 }
