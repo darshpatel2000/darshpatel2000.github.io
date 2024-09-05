@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>weastel</title>
+    <link>https://weastel.github.io/</link>
+    <description>Recent content on weastel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://weastel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://weastel.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/about/</guid>
+      <description>Hi, my name is Drumil, I am in final year.</description>
+    </item>
+    
+    <item>
+      <title>Amazon, Hyderabad, India</title>
+      <link>https://weastel.github.io/works/amazon2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/works/amazon2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atcoder</title>
+      <link>https://weastel.github.io/competitive/websites/atcoder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/competitive/websites/atcoder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Binarysearch</title>
+      <link>https://weastel.github.io/competitive/websites/binarysearch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/competitive/websites/binarysearch/</guid>
+      <description>Solved 818 Questions out of 1031 Questions, ranked amongs top 50 programmers on basis of questions solved.</description>
+    </item>
+    
+    <item>
+      <title>Codechef</title>
+      <link>https://weastel.github.io/competitive/websites/codechef/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/competitive/websites/codechef/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codeforces</title>
+      <link>https://weastel.github.io/competitive/websites/codeforces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/competitive/websites/codeforces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facebook Hackercup</title>
+      <link>https://weastel.github.io/competitive/websites/fbhackercup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/competitive/websites/fbhackercup/</guid>
+      <description>Scored 2533rd global rank out of 6789 Participants in Round 2, Facebook HackerCup 2021</description>
+    </item>
+    
+    <item>
+      <title>Google Kickstart</title>
+      <link>https://weastel.github.io/competitive/websites/kickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/competitive/websites/kickstart/</guid>
+      <description>Best Rank: 656 Global Rank in Google Kickstart Round F, 2021.</description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code 2019, Submitty</title>
+      <link>https://weastel.github.io/works/gsoc2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/works/gsoc2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code 2020, Prometheus, Cloud Native Computing Foundation</title>
+      <link>https://weastel.github.io/works/gsoc2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/works/gsoc2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leetcode</title>
+      <link>https://weastel.github.io/competitive/websites/leetcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weastel.github.io/competitive/websites/leetcode/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
